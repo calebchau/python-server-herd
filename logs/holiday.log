@@ -1,0 +1,16 @@
+2018-06-07 01:48:33,655 - INFO (Holiday) => Created server: Holiday, serving on ('127.0.0.1', 12527)
+2018-06-07 01:48:36,368 - INFO (Holiday) => New incoming connection from ('127.0.0.1', 53094)
+2018-06-07 01:48:36,368 - INFO (Holiday) => Message received: 'AT Welsh +8337381.429196119 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997 Welsh'
+2018-06-07 01:48:36,368 - INFO (Holiday) => Incoming AT message from ('127.0.0.1', 53094) is server Welsh propagating updated client location for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,369 - INFO (Holiday) => Succesfully updated client stamp for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,369 - INFO (Holiday) => Propagating updated client stamp for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,369 - INFO (Holiday) => Received update list: ['Welsh', 'Holiday']
+2018-06-07 01:48:36,369 - INFO (Holiday) => Connecting to server Goloman
+2018-06-07 01:48:36,369 - INFO (Holiday) => Connecting to server Wilkes
+2018-06-07 01:48:36,370 - INFO (Holiday) => Sending updated location for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,370 - INFO (Holiday) => Sending updated location for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,371 - INFO (Holiday) => Client ('127.0.0.1', 53094) dropped connection
+2018-06-07 01:48:36,371 - INFO (Holiday) => Goloman received updated location for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,371 - INFO (Holiday) => Closing connection to server Goloman
+2018-06-07 01:48:36,372 - INFO (Holiday) => Wilkes received updated location for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,372 - INFO (Holiday) => Closing connection to server Wilkes

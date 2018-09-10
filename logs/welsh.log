@@ -1,0 +1,71 @@
+2018-06-07 01:48:33,643 - INFO (Welsh) => Created server: Welsh, serving on ('127.0.0.1', 12528)
+2018-06-07 01:48:36,347 - INFO (Welsh) => New incoming connection from ('127.0.0.1', 53278)
+2018-06-07 01:48:36,348 - INFO (Welsh) => Message received: 'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997\r'
+2018-06-07 01:48:36,348 - INFO (Welsh) => Succesfully updated client stamp for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,348 - INFO (Welsh) => Propagating updated client stamp for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,348 - INFO (Welsh) => Received update list: ['Welsh']
+2018-06-07 01:48:36,348 - INFO (Welsh) => Connecting to server Holiday
+2018-06-07 01:48:36,348 - INFO (Welsh) => Sending response: 'AT Welsh +8337381.429196119 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997\n'
+2018-06-07 01:48:36,348 - INFO (Welsh) => Message received: 'WHATSAT kiwi.cs.ucla.edu 10 1\r'
+2018-06-07 01:48:36,368 - INFO (Welsh) => Sending updated location for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,369 - INFO (Welsh) => Holiday received updated location for kiwi.cs.ucla.edu
+2018-06-07 01:48:36,370 - INFO (Welsh) => Closing connection to server Holiday
+2018-06-07 01:48:37,141 - INFO (Welsh) => Sending response: AT Welsh +8337381.429196119 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+{
+  "html_attributions": [],
+  "next_page_token": "CqQCFwEAADJBiKPfGGFPBGuIix-sy43km2Oyd6O00VLmpbD-CwrsKQiUJ07Ms0MH2UgqtROVluZw1Rks_g0-rdA60U4nX3L_VQdIOoxbnGtwLwZ-ctZEcL8l6oz3MEHvANln3-sjoyLcVpOL_e_Df1bdbzPcmWzWGhl8gTbFxrPhCaDlXsTmykzyf3pNIrJ_blfowdtovoopRB722DqMjAp1E8gOIwKtnVjs5wP89CDr7Xn0-aeRzTD6G0_X6jDL0QjlsJYx_j5Qku8epuvHghQOi6sbA0-SGh_DTycnW4TgTADdFmZlCHAN5tAiUans7H_MQUwhTTo-Zv0RHhvFSR-dE8gLKS4u9idaiaM7KaANfZ6YBONcWMVmt9Ldj8sAsIzNT95EmRIQeXhytmoqIWFWu_nJFwAHUBoUcchxlrg1MdXcRHoA0mZ4m2fktsE",
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 34.0522342,
+          "lng": -118.2436849
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 34.3373061,
+            "lng": -118.1552891
+          },
+          "southwest": {
+            "lat": 33.7036519,
+            "lng": -118.6681759
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id": "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+      "name": "Los Angeles",
+      "photos": [
+        {
+          "height": 1024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104783537625313340909/photos\">Radoescu Antonela</a>"
+          ],
+          "photo_reference": "CmRaAAAA3z2wZCmqA51sWUEuxDa1auXs1aadDdtNofQgM3B43SsxEZ_LN7JsCcU1vlqV7zNOmTKWAEDtWS5kL2ZZQK6UWGWKMAJc4MN3yg4rKvty8Ju6U97V8tY5sLmccZ9ADj80EhA1TlhgQwLf8x2VnhSsRrP7GhS8t6TfgYCF4JF0XxzcFlu7uURmNA",
+          "width": 1548
+        }
+      ],
+      "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+      "reference": "CmRbAAAATWIsfoF_X3WWc73r3COM2eup95ArRTVqziO9J3_9aMHFWcgjC04UbRpI99ZhvWj6uNOJLNk21IzeroufDnvxbluObcdNygz6ppXpN9sT6C3cFshRIqUvPA8i1X4AOayKEhCTWmRNmu8KvrA_6osXS9HSGhQCwURphfhTBSl2NI7_frEwtliLRQ",
+      "scope": "GOOGLE",
+      "types": [
+        "locality",
+        "political"
+      ],
+      "vicinity": "Los Angeles"
+    }
+  ],
+  "status": "OK"
+}
+
+
+2018-06-07 01:48:38,648 - INFO (Welsh) => Client ('127.0.0.1', 53278) dropped connection
+2018-06-07 01:48:40,741 - INFO (Welsh) => New incoming connection from ('127.0.0.1', 53304)
+2018-06-07 01:48:40,741 - INFO (Welsh) => Message received: 'WHATSAT caleb 10 1\r'
+2018-06-07 01:48:40,741 - ERROR (Welsh) => Error: invalid client for WHATSAT query, server does not have its location yet
+2018-06-07 01:48:40,741 - ERROR (Welsh) => Error: Received invalid message
+2018-06-07 01:48:40,741 - INFO (Welsh) => Sending response: '? WHATSAT caleb 10 1\r\n'
+2018-06-07 01:48:40,742 - INFO (Welsh) => Message received: 'hi\thi\thi\r'
+2018-06-07 01:48:40,742 - ERROR (Welsh) => Error: Received invalid message
+2018-06-07 01:48:40,742 - INFO (Welsh) => Sending response: '? hi\thi\thi\r\n'
+2018-06-07 01:48:42,138 - INFO (Welsh) => Client ('127.0.0.1', 53304) dropped connection
